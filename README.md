@@ -1,8 +1,5 @@
-# ✅ One-cell solution to generate README.md completely
-import os
+# ✅ AWS SageMaker pipeline, data pre-processing, endpoint inference via Step functions from AWS lambdas
 
-with open("README.md", "w") as f:
-    f.write("""# Final Project: Image Classification using SageMaker and Custom Container
 
 This project implements a machine learning workflow to classify images (e.g., bicycle vs motorcycle) using AWS SageMaker Studio. It uses a pretrained container hosted on Amazon ECR, along with custom `.lst` manifest files and S3 storage for data and model artifacts.
 
@@ -21,7 +18,7 @@ cd udacity-nd009t-C2-Developing-ML-Workflow
 
 Open the `starter.ipynb` notebook from the following path in SageMaker Studio:
 
-📎 [starter.ipynb in JupyterLab](https://kk95za7le56wapk.studio.us-east-1.sagemaker.aws/jupyterlab/default/lab/tree/udacity-nd009t-C2-Developing-ML-Workflow/project/starter.ipynb)
+📎 [starter.ipynb in JupyterLab](https://github.com/udacity/udacity-nd009t-C2-Developing-ML-Workflow/blob/master/project/starter.ipynb)
 
 ---
 
@@ -78,5 +75,4 @@ After successful training, you'll have:
 - Optionally, a SageMaker endpoint for inference
 """)
 
-print("✅ README.md created successfully.")
 
